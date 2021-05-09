@@ -1,0 +1,228 @@
+/*****************************************  
+Author: ThemeRed
+Version: 1.0
+URL: http://themered.com
+*****************************************/
+
+
+
+
+/*****************************************
+                 General
+*****************************************/
+@media (max-width: 991px) {
+    body {
+        font-size: 16px;
+    }
+    
+    .section-padding {
+        padding: 80px 0;
+    }
+    
+    .no-padding-top {
+        padding-top: 0;
+    }
+    
+    .no-padding-bottom {
+        padding-bottom: 0;
+    }
+    
+    .section-title {
+        margin-bottom: 80px;
+    }
+    
+    .list-inline>li {
+        padding-left: 2px;
+        padding-right: 3px;
+    }
+    
+    .top-header ul li:after {
+        height: 3px;
+        width: 3px;
+        margin-left: 5px;
+    }
+    
+    .header .navbar-nav li a {
+        margin: 0;
+        padding: 20px 10px;
+    }
+    
+    .pricing .pricing_table, 
+    .team .single-member, 
+    .blog .single-blog, 
+    .contact .contact-form {
+        max-width: 330px;
+        margin: 0 auto;
+    }
+    
+    .single-slide-item {
+        text-align: center;
+    }
+    
+    .homepage-slides-wrapper .owl-controls {
+        display: none;
+    }
+    
+    .pricing, 
+    .team,
+    .blog,
+    .contact {
+        padding-bottom: 50px;
+    }
+    
+    .pricing .pricing_table,
+    .team .single-member,
+    .blog .single-blog,
+    .contact .contact-form {
+        margin-bottom: 30px;
+    }
+    
+    .single_service {
+        padding: 30px 20px;
+    }
+    
+    .testimonials .client-say .client-item {
+        padding: 30px;
+    }
+}
+
+
+
+/*****************************************
+                 Medium
+*****************************************/
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .homepage-slides .owl-nav {
+        width: 970px;
+    }
+    
+    .pricing_top {
+        padding: 20px;
+    }
+    
+    .pricing_middle {
+        padding: 30px;
+    }
+    
+    .single-blog .blog-content {
+        padding: 25px 35px;
+        transform: translateY(0);
+        box-shadow: none;
+        margin: 0;
+        border-color: #f1f2f6;
+        border-radius: 0;
+    }
+    
+    .contact-info {
+    }
+}
+
+
+/*****************************************
+               Tablet 
+*****************************************/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .contact .contact-info,
+    .contact .contact-form {
+        max-width: 100%;
+    }
+}
+
+
+
+
+
+/***************************************** 
+                Mobile
+*****************************************/
+
+@media only screen and (max-width: 767px) {
+    img {
+        margin: 0 auto;
+    }
+    
+    .section-padding {
+        padding: 60px 0;
+    }
+    
+    .section-padding.no-padding-top {
+        padding-top: 0;
+    }
+    
+    .section-padding.no-padding-bottom {
+        padding-bottom: 0;
+    }
+    
+    .section-title {
+        margin-bottom: 60px;
+    }
+    
+    .top-header {
+        display: none;
+    }
+    
+    .fixed-nav .header {
+        z-index: 3;
+    }
+    
+    .pricing, 
+    .team,
+    .blog,
+    .contact {
+        padding-bottom: 30px;
+    }
+    
+    .social,
+    .contact-min {
+        text-align: center;
+    }
+    
+    .header .logo {
+        padding: 10px 0;
+    }
+    
+    .single_service {
+        max-width: 350px;
+        margin: 0 auto;
+    }
+    
+    .pricing .pricing_table, 
+    .team .single-member, 
+    .blog .single-blog, 
+    .contact .contact-form {
+        margin: 0 auto;
+        margin-bottom: 30px;
+        max-width: 550px;
+    }
+}
+
+
+
+
+
+/***************************************** 
+              Small Mobile
+*****************************************/
+@media only screen and (max-width: 480px) {
+    .pricing_middle h3:before {
+        display: none;
+    }
+    
+    .pricing_top p {
+        display: inline-block;
+    }
+    
+    .btn-price {
+        padding: 10px 20px;
+    }
+    
+    .pricing_middle {
+        margin-left: 0;
+        text-align: center;
+    }
+    
+    .pricing_top .pricing-price {
+        margin-top: 0;
+    }
+}
