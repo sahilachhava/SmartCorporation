@@ -9,12 +9,8 @@ for Smart Corporation <br /><br />
 
 _Homepage_<br />
 
-![Homepage](https://github.com/sahilachhava/HeifersDairy/blob/main/screenshots/Home.png)<br />
-
-_About_<br />
-
-![Homepage](https://github.com/sahilachhava/HeifersDairy/blob/main/screenshots/About.png)<br />
+![Homepage](https://github.com/sahilachhava/SmartCorporation/blob/main/screenshots/home.png)<br />
 
 _Products_<br />
 
-![Homepage](https://github.com/sahilachhava/HeifersDairy/blob/main/screenshots/Products.png)<br />
+![Homepage](https://github.com/sahilachhava/SmartCorporation/blob/main/screenshots/products.png)<br />
